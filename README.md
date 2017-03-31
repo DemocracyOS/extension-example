@@ -12,7 +12,8 @@ This is an example demonstrating how to extend DemocracyOS using Docker.
 
 ### Refs
 * If you want to know more about `docker-compose`, here's the docs: https://docs.docker.com/compose/
-* On your `development.docker-compose.yml` you can configure your DemocracyOS instance using environment variables. Here's all the available options here: http://docs.democracyos.org/configuration.html
+* On your `development.docker-compose.yml` you can configure your DemocracyOS instance using environment variables. All the available options are here: http://docs.democracyos.org/configuration.html
+* The port `27017` is exposed so you can connect to mongo from your machine using any mongo client such as [Studio 3T](https://studio3t.com/).
 
 ## Commands
 
@@ -28,7 +29,7 @@ docker-compose -f docker/development.docker-compose.yml up --build
 
 ```
 # Enter to the running DemocracyOS VM with:
-
+docker exec -it democracyos-dev bash
 ```
 
 ## Running on Production
