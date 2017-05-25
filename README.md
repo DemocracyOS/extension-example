@@ -29,7 +29,7 @@ docker-compose up
 ```
 
 ```
-# If you change any dependency you have to Re-build your Docker image with:
+# If you change any dependency you have to re-build your Docker image with:
 docker-compose up --build
 ```
 
