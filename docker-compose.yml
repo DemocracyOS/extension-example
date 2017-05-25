@@ -9,7 +9,7 @@ services:
       - NODE_ENV=development
       - DEBUG=democracyos*
       - MONGO_URL=mongodb://mongo/development
-      - ORGANIZATION_NAME=DemocracyOS Fork Test
+      - ORGANIZATION_NAME=DemocracyOS Fork
       # Add your email here!
       - STAFF=email@example.com
     links:

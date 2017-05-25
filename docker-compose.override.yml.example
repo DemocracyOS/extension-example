@@ -1,5 +1,6 @@
+version: '3'
+
 services:
   app:
     environment:
-      - ORGANIZATION_NAME=Matias's DemocracyOS
       - STAFF=matias@democracyos.org
