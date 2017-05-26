@@ -18,6 +18,7 @@ services:
       - 3000:3000
     volumes:
       - ./ext/lib:/usr/src/ext/lib
+      - ./public:/usr/src/public
     tty: true
 
   mongo:
